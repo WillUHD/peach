@@ -85,4 +85,5 @@ Werkzeug==3.1.3
 ```
 
 ## Usage
+To prepare the custom venv, go to `setup/pip.sh`. 
 In the terminal (set to the root directory), run `./run.sh`. 
