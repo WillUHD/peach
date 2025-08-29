@@ -1,37 +1,87 @@
 # peach
-A fast utility for a specific order analyzation task, using OCR and regular expressions. 
+A fast utility for a specific order analyzation task, using ML and regular expressions. 
 
 ## `pip` import list
 ```
-Package                Version
----------------------- -----------
-easyocr                1.7.2
-filelock               3.18.0
-fsspec                 2025.7.0
-imageio                2.37.0
-Jinja2                 3.1.6
-lazy_loader            0.4
-MarkupSafe             3.0.2
-mpmath                 1.3.0
-networkx               3.2.1
-ninja                  1.11.1.4
-numpy                  1.26.4
-opencv-python-headless 4.12.0.88
-packaging              25.0
-pillow                 11.3.0
-pip                    25.1.1
-pyclipper              1.3.0.post6
-python-bidi            0.6.6
-PyYAML                 6.0.2
-scikit-image           0.24.0
-scipy                  1.13.1
-setuptools             58.0.4
-shapely                2.0.7
-sympy                  1.14.0
-tifffile               2024.8.30
-torch                  2.2.2
-torchvision            0.17.2
-typing_extensions      4.14.1
+anyio==4.9.0
+astor==0.8.1
+attrdict==2.0.1
+babel==2.17.0
+bce-python-sdk==0.9.42
+beautifulsoup4==4.13.4
+blinker==1.9.0
+cachetools==6.1.0
+certifi==2025.7.14
+charset-normalizer==3.4.2
+click==8.2.1
+contourpy==1.3.3
+cssselect==1.3.0
+cssutils==2.11.1
+cycler==0.12.1
+Cython==3.1.2
+decorator==5.2.1
+et_xmlfile==2.0.0
+fire==0.7.0
+Flask==3.1.1
+flask-babel==4.0.0
+fonttools==4.59.0
+future==1.0.0
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.10
+imageio==2.37.0
+imgaug==0.4.0
+itsdangerous==2.2.0
+Jinja2==3.1.6
+kiwisolver==1.4.8
+lazy_loader==0.4
+lmdb==1.7.3
+lxml==6.0.0
+MarkupSafe==3.0.2
+matplotlib==3.10.3
+more-itertools==10.7.0
+networkx==3.5
+numpy==1.25.2
+opencv-contrib-python==4.6.0.66
+opencv-python==4.6.0.66
+opencv-python-headless==4.11.0.86
+openpyxl==3.1.5
+opt-einsum==3.3.0
+packaging==25.0
+paddle-bfloat==0.1.7
+paddleocr==2.7.0.0
+paddlepaddle==2.5.1
+pandas==2.3.1
+pdf2docx==0.5.8
+pillow==11.3.0
+premailer==3.10.0
+protobuf==6.31.1
+psutil==7.0.0
+pyclipper==1.3.0.post6
+pycryptodome==3.23.0
+PyMuPDF==1.20.2
+pyparsing==3.2.3
+python-dateutil==2.9.0.post0
+python-docx==1.2.0
+pytz==2025.2
+RapidFuzz==3.13.0
+rarfile==4.2
+requests==2.32.4
+scikit-image==0.25.2
+scipy==1.16.1
+shapely==2.1.1
+six==1.17.0
+sniffio==1.3.1
+soupsieve==2.7
+termcolor==3.1.0
+tifffile==2025.6.11
+tqdm==4.67.1
+typing_extensions==4.14.1
+tzdata==2025.2
+urllib3==2.5.0
+visualdl==2.5.3
+Werkzeug==3.1.3
 ```
 
 ## Usage
